@@ -1,14 +1,14 @@
-# Go Server for Bosch Rexroth Nexo Tools
+# Go Server for Bosch Rexroth Nexo Tools (Rexroth OpenProtocol Rev1)
+#### by Ahmadzakir Hanif (DCEA/SVE4-AS)
 ![Go Version](https://img.shields.io/badge/Go-1.18%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-## Rexroth OpenProtocol Rev1
-### by Ahmadzakir Hanif (DCEA/SVE4-AS)
+
 
 A robust TCP server written in Go to communicate with Bosch Rexroth Nexo cordless nutrunners using the Rexroth Open Protocol. This server can connect to multiple tools simultaneously, listen for tightening results, and expose the data through a clean JSON REST API.
 
 ---
 
-## ## Features
+## Features
 
 -   **Multi-Tool Connectivity**: Connects to and handles multiple Nexo tools at the same time, each in its own dedicated goroutine.
 -   **Automatic Reconnection**: If a tool becomes disconnected, the server will automatically try to reconnect with an exponential backoff strategy.
@@ -18,7 +18,7 @@ A robust TCP server written in Go to communicate with Bosch Rexroth Nexo cordles
 
 ---
 
-## ## Project Structure
+## Project Structure
 
 The project follows a standard Go application layout to keep the code organized:
 nexo-server/
@@ -43,16 +43,16 @@ nexo-server/
 
 ---
 
-## ## Getting Started
+## Getting Started
 
 Follow these instructions to get the server up and running on your local machine.
 
-### ### Prerequisites
+### Prerequisites
 
 -   [Go](https://go.dev/doc/install) (version 1.18 or newer) installed on your system.
 -   Access to the Nexo tools on the network.
 
-### ### Installation & Running
+### Installation & Running
 
 1.  **Clone the repository:**
     ```sh
@@ -89,11 +89,11 @@ Follow these instructions to get the server up and running on your local machine
 
 ---
 
-## ## API Usage
+## API Usage
 
 The API provides endpoints to monitor the status of the tools and retrieve the latest tightening data.
 
-### ### 1. Get Status of All Tools
+### 1. Get Status of All Tools
 
 Returns a list of all configured tools and their current connection status.
 
@@ -123,7 +123,7 @@ Returns a list of all configured tools and their current connection status.
     }
     ```
 
-### ### 2. Get Last Result from a Specific Tool
+### 2. Get Last Result from a Specific Tool
 
 Returns the last tightening result received from a single, specified tool.
 
@@ -159,6 +159,6 @@ Returns the last tightening result received from a single, specified tool.
 
 ---
 
-## ## License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
