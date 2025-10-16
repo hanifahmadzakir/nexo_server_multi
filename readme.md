@@ -1,11 +1,10 @@
 # Go Server for Bosch Rexroth Nexo Tools
+![Go Version](https://img.shields.io/badge/Go-1.18%2B-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 ## Rexroth OpenProtocol Rev1
 ### by Ahmadzakir Hanif (DCEA/SVE4-AS)
 
-![Go Version](https://img.shields.io/badge/Go-1.18%2B-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-A robust, multi-tool TCP server written in Go to communicate with Bosch Rexroth Nexo cordless nutrunners using the Rexroth Open Protocol. This server can connect to multiple tools simultaneously, listen for tightening results, and expose the data through a clean JSON REST API.
+A robust TCP server written in Go to communicate with Bosch Rexroth Nexo cordless nutrunners using the Rexroth Open Protocol. This server can connect to multiple tools simultaneously, listen for tightening results, and expose the data through a clean JSON REST API.
 
 ---
 
