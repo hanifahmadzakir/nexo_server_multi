@@ -1,5 +1,6 @@
 # Go Server for Bosch Rexroth Nexo Tools
 ## Rexroth OpenProtocol Rev1
+### by Ahmadzakir Hanif (DCEA/SVE4-AS)
 
 ![Go Version](https://img.shields.io/badge/Go-1.18%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
